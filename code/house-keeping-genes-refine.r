@@ -114,12 +114,12 @@ image(CFSbetas[-NAind,][hkTSS,][order(CFShkTSSRowMeans),][CFStssKeep,],main='CFS
 
 save(CFSbodyKeep, CFStssKeep, CFSBodyThrowOut, CFStssThrowOut,
      BSbodyKeep, BStssKeep, BSBodyThrowOut, BStssThrowOut,
-     file = 'edited-HK-list.rda')
+     file = 'edited-HK-lists.rda')
 
 hkILMNIDs <- c(intersect(names(BSbodyKeep),names(CFSbodyKeep)), 
                intersect(names(BStssKeep), names(CFStssKeep)))
 
-save(hkRefined, file='house-keeping-ILMNID.rda')
+save(hkILMNIDs, file='house-keeping-ILMNID.rda')
 
 
 
