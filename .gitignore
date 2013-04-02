@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Rproj
+cache/*
+data/BrainSpan-data/*
+data/CFS-data/*
+/reports/cache/*
+.html
+.Rmd
